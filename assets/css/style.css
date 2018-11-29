@@ -1,3 +1,18 @@
+.my-name-class-content-our-team, .my-class-name-content-information-layered, .my-class-name-content-services-section, #information-landing, #navegation-header nav, #navegation-header, .title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#inputs-footer, .my-class-name-footer, .my-class-name-content-recent-posts, .my-class-name-recent-works {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 body {
   margin: 0 auto;
 }
@@ -5,46 +20,69 @@ body a {
   text-decoration: none;
 }
 
-footer, #posts, #team, #news, #section, #Information, header {
+.title {
+  width: 400px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+.title h1 {
+  font-size: 45px;
+  margin: 0 auto;
+  font-family: "Roboto Slab", serif;
+}
+.title p {
+  font-size: 13px;
+  font-family: sans-serif;
+  opacity: 0.5;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  border: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #616161;
+  font-weight: bold;
+}
+
+footer, .my-class-name-recent-posts, .my-name-class-our-team, .my-class-name-layered-template, section, .my-class-name-our-services-section, .my-class-name-landing, header {
   display: flex;
   width: 100%;
   justify-content: center;
-}
-
-#divTittlePosts, #divPosts, #divTittleTeam, #divTeam, #divNews, #divContainerInformation, #divImageHeader, #divNavegationHeader nav, #divNavegationHeader {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
 }
 
 header {
   background-color: #a6d1d8;
 }
 
-#divHeader {
+.my-class-name-header {
   width: 940px;
   height: auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 
-#divNavegationHeader div {
+#navegation-header div {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
 }
-#divNavegationHeader div p {
+#navegation-header div p {
   font-family: "Roboto Slab", serif;
   color: #3a494c;
   font-size: 25px;
 }
-#divNavegationHeader nav {
+#navegation-header nav {
   width: 500px;
-}
-#divNavegationHeader nav a {
-  text-decoration: none;
 }
 
 .my-class-name-a-nav {
@@ -76,34 +114,14 @@ header {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#divImageHeader {
-  width: 840px;
-  margin-top: 40px;
-}
-#divImageHeader div {
-  align-items: center;
-}
-#divImageHeader div h1 {
-  color: white;
-  font-size: 45px;
-  padding-bottom: 20px;
-  text-align: center;
-  font-family: "Roboto Slab", serif;
+.my-class-name-landing {
+  background-color: #a6d1d8;
 }
 
-#divTextImageHeader {
-  width: 450px;
+.my-class-name-content-landing {
+  width: 940px;
 }
-
-#divRadio {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  align-items: center;
-  justify-content: center;
-}
-
-input {
+.my-class-name-content-landing input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -117,78 +135,97 @@ input {
   position: relative;
   top: 4px;
 }
-
-input[type=radio]:checked {
+.my-class-name-content-landing input[type=radio]:checked {
   background-color: white;
 }
 
-#divContainerInformation {
+#information-landing {
+  width: 840px;
+  margin-top: 40px;
+}
+#information-landing div {
+  align-items: center;
+}
+#information-landing div h1 {
+  color: white;
+  font-size: 45px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+#text-information-landing {
+  width: 450px;
+}
+
+#radio-informatio-landing {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-class-name-content-services-section {
   margin: 80px 0px;
   width: 940px;
 }
-#divContainerInformation div {
+.my-class-name-content-services-section div {
   width: 260px;
   margin: 0px;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-#divContainerInformation div img {
+.my-class-name-content-services-section div img {
   height: 115px;
 }
-#divContainerInformation div h3 {
+.my-class-name-content-services-section div h3 {
   font-size: 18px;
   font-family: sans-serif;
 }
-#divContainerInformation div p {
+.my-class-name-content-services-section div p {
   color: #616161;
   font-size: 14px;
   font-family: sans-serif;
 }
 
-#divInputFooter, #div-tittle-footer, #div-footer, #divTittleWorks, #divWorks {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#section {
+section {
   background-color: #99d2a7;
 }
 
-#divWorks {
+.my-class-name-recent-works {
   width: 940px;
   margin: 40px 0px;
   color: white;
 }
 
-#divTittleWorks {
+.my-class-name-tittle-recent-works {
   width: 400px;
   text-align: center;
   margin-bottom: 40px;
 }
-#divTittleWorks h1 {
+.my-class-name-tittle-recent-works h1 {
   font-size: 45px;
   margin: 0 auto;
   font-family: "Roboto Slab", serif;
 }
-#divTittleWorks p {
+.my-class-name-tittle-recent-works p {
   font-size: 13px;
   color: white;
   font-family: sans-serif;
   opacity: 0.5;
 }
 
-#divNavWorks {
+#nav-recent-works {
   width: 57.4468085106%;
   margin-bottom: 20px;
 }
-#divNavWorks nav {
+#nav-recent-works nav {
   display: flex;
   justify-content: space-between;
 }
-#divNavWorks nav a {
+#nav-recent-works nav a {
   text-decoration: none;
   font-family: Arial, sans-serif;
 }
@@ -222,7 +259,7 @@ input[type=radio]:checked {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#divImageWorks {
+.image-recent-works {
   display: grid;
   margin: 20px 0px;
   height: 450px;
@@ -231,43 +268,26 @@ input[type=radio]:checked {
   justify-content: space-between;
   grid-template: 44.4% 44.4%/28% 28% 28%;
 }
-#divImageWorks img {
+.image-recent-works img {
   height: 100%;
   width: 100%;
 }
 
-#divBtnWorks {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0px;
-  background-color: white;
-  width: 120px;
-  height: 50px;
-  border-radius: 4px;
-  border: 0px;
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-  color: #777777;
-  font-weight: bold;
-}
-
-#news {
+.my-class-name-layered-template {
   background-color: #f1f1f1;
 }
 
-#divNews {
+.my-class-name-content-information-layered {
   flex-flow: column wrap;
   margin: 60px 0px;
   width: 940px;
   font-family: sans-serif;
 }
-#divNews div img {
+.my-class-name-content-information-layered div img {
   width: 100%;
   height: 100%;
 }
-#divNews div input {
+.my-class-name-content-information-layered div input {
   width: 120px;
   height: 50px;
   border: 0px;
@@ -276,17 +296,17 @@ input[type=radio]:checked {
   font-size: 14px;
   font-weight: bold;
 }
-#divNews div h3 {
+.my-class-name-content-information-layered div h3 {
   font-size: 24px;
   margin-bottom: 5px;
 }
-#divNews div p {
+.my-class-name-content-information-layered div p {
   font-size: 18px;
   margin-top: 5px;
   color: #616161;
 }
 
-#divNews1 {
+#first-content-information-layered {
   display: grid;
   width: 940px;
   justify-content: space-between;
@@ -294,18 +314,18 @@ input[type=radio]:checked {
   margin-bottom: 70px;
 }
 
-#divNews2 {
+#second-content-information-layered {
   display: grid;
   width: 940px;
   justify-content: space-between;
   grid-template-columns: 660px 240px;
   margin-top: 50px;
 }
-#divNews2 div:nth-of-type(1) {
+#second-content-information-layered div:nth-of-type(1) {
   order: 2;
 }
 
-#divBtnNews1 {
+#button-first-content {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -322,7 +342,7 @@ input[type=radio]:checked {
   font-weight: bold;
 }
 
-#divBtnNews2 {
+#button-second-content {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -339,15 +359,15 @@ input[type=radio]:checked {
   font-weight: bold;
 }
 
-.my-class-name-information-news {
+.my-class-name-information-layered {
   display: flex;
   flex-flow: column wrap;
 }
 
-#divHr {
+#hr-content {
   width: 100%;
 }
-#divHr hr {
+#hr-content hr {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -358,34 +378,17 @@ input[type=radio]:checked {
   border-color: #c7c7c7;
 }
 
-#team {
+.my-name-class-our-team {
   background-color: #deb5c5;
 }
 
-#divTeam {
+.my-name-class-content-our-team {
   justify-content: center;
   width: 940px;
   margin: 40px 0px;
 }
 
-#divTittleTeam {
-  width: 400px;
-  text-align: center;
-  margin-bottom: 40px;
-  color: white;
-}
-#divTittleTeam h1 {
-  font-size: 45px;
-  margin: 0 auto;
-  font-family: "Roboto Slab", serif;
-}
-#divTittleTeam p {
-  font-size: 13px;
-  font-family: sans-serif;
-  opacity: 0.5;
-}
-
-#divInformationTeam {
+#content-information-team {
   margin-top: 80px;
   margin-bottom: 60px;
   width: 940px;
@@ -448,30 +451,16 @@ input[type=radio]:checked {
   height: 32px;
 }
 
-#posts {
+.my-class-name-recent-posts {
   background-color: #a6d1d8;
 }
 
-#divPosts {
+.my-class-name-content-recent-posts {
   width: 940px;
   margin: 40px 0px;
 }
 
-#divTittlePosts {
-  width: 400px;
-  text-align: center;
-  margin-bottom: 40px;
-  color: white;
-}
-#divTittlePosts h1 {
-  font-size: 45px;
-  margin: 0 auto;
-}
-#divTittlePosts p {
-  font-size: 14px;
-}
-
-#divInformationPosts {
+#information-posts {
   margin-top: 80px;
   margin-bottom: 60px;
   width: 940px;
@@ -529,49 +518,16 @@ input[type=radio]:checked {
   height: 32px;
 }
 
-#divBtnPosts {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  background-color: white;
-  width: 120px;
-  height: 50px;
-  border-radius: 4px;
-  border: 0px;
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-  color: #616161;
-  font-weight: bold;
-}
-
 footer {
   background-color: #3c3c3c;
 }
 
-#div-footer {
+.my-class-name-footer {
   width: 940px;
   margin: 40px 0px;
 }
 
-#div-tittle-footer {
-  width: 400px;
-  text-align: center;
-  margin-bottom: 40px;
-  color: white;
-}
-#div-tittle-footer h1 {
-  font-size: 45px;
-  margin: 0 auto;
-  font-family: "Roboto Slab", serif;
-}
-#div-tittle-footer p {
-  font-size: 13px;
-  font-family: sans-serif;
-}
-
-#divInputFooter {
+#inputs-footer {
   width: 450px;
   height: 300px;
   justify-content: space-between;
@@ -588,34 +544,17 @@ footer {
   height: 50px;
 }
 
-#inputMessage {
+#input-message-footer {
   padding-top: 10px;
   justify-content: flex-start;
   vertical-align: top;
   height: 120px;
 }
 
-#divBtnFooter {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  background-color: white;
-  width: 120px;
-  height: 50px;
-  border-radius: 4px;
-  border: 0px;
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-  color: #3c3c3c;
-  font-weight: bold;
-}
-
-#divHrFooter {
+#hr-footer {
   width: 100%;
 }
-#divHrFooter hr {
+#hr-footer hr {
   margin-left: auto;
   margin-right: auto;
   border-width: 1px;
@@ -623,7 +562,7 @@ footer {
   border-style: solid;
 }
 
-#divNavFooter {
+.my-class-name-nav-footer {
   margin-top: 40px;
   display: flex;
   flex-flow: row wrap;
@@ -631,19 +570,19 @@ footer {
   justify-content: space-between;
   font-family: Helvetica, sans-serif;
 }
-#divNavFooter input {
+.my-class-name-nav-footer input {
   height: 45px;
   width: 45px;
 }
-#divNavFooter nav {
+.my-class-name-nav-footer nav {
   display: flex;
   width: 210px;
   justify-content: space-between;
 }
-#divNavFooter a {
+.my-class-name-nav-footer a {
   color: #e0be67;
 }
-#divNavFooter p {
+.my-class-name-nav-footer p {
   color: #aaaaaa;
 }
 

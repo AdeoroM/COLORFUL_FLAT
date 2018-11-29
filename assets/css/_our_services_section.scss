@@ -1,10 +1,10 @@
 $Color-font: rgb(97, 97, 97);
 
-#Information {
+.my-class-name-our-services-section {
   @extend %DisplayView;
 }
 
-#divContainerInformation {
+.my-class-name-content-services-section {
   margin: 80px 0px;
   width: 940px;
   @extend %Display;

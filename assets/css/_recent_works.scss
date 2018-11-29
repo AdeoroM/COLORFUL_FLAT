@@ -1,29 +1,22 @@
-%Display2 {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-between;
-}
 $Color-font: rgb(119, 119, 119);
 
 @mixin div-width($property) {
   width: $property / 940px * 100%;
 }
 
-#section {
+section {
   @extend %DisplayView;
   background-color: #99d2a7;
 }
 
-#divWorks {
+.my-class-name-recent-works {
+  @extend %Display2;
   width: 940px;
   margin: 40px 0px;
-  @extend %Display2;
   color: white;
 }
-#divTittleWorks {
+.my-class-name-tittle-recent-works {
   width: 400px;
-  @extend %Display2;
   text-align: center;
   margin-bottom: 40px;
   h1 {
@@ -39,7 +32,7 @@ $Color-font: rgb(119, 119, 119);
   }
 }
 
-#divNavWorks {
+#nav-recent-works {
   @include div-width(540px);
   margin-bottom: 20px;
   nav {
@@ -79,7 +72,7 @@ $Color-font: rgb(119, 119, 119);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-#divImageWorks {
+.image-recent-works {
   display: grid;
   margin: 20px 0px;
   height: 450px;
@@ -91,20 +84,4 @@ $Color-font: rgb(119, 119, 119);
     height: 100%;
     width: 100%;
   }
-}
-#divBtnWorks {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0px;
-  background-color: white;
-  width: 120px;
-  height: 50px;
-  border-radius: 4px;
-  border: 0px;
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-  color: $Color-font;
-  font-weight: bold;
 }

@@ -5,28 +5,12 @@ footer {
   background-color: #3c3c3c;
 }
 
-#div-footer {
+.my-class-name-footer {
   @extend %Display2;
   width: 940px;
   margin: 40px 0px;
 }
-#div-tittle-footer {
-  width: 400px;
-  @extend %Display2;
-  text-align: center;
-  margin-bottom: 40px;
-  color: white;
-  h1 {
-    font-size: 45px;
-    margin: 0 auto;
-    font-family: "Roboto Slab", serif;
-  }
-  p {
-    font-size: 13px;
-    font-family: sans-serif;
-  }
-}
-#divInputFooter {
+#inputs-footer {
   width: 450px;
   @extend %Display2;
   height: 300px;
@@ -44,30 +28,13 @@ footer {
   height: 50px;
 }
 
-#inputMessage {
+#input-message-footer {
   padding-top: 10px;
   justify-content: flex-start;
   vertical-align: top;
   height: 120px;
 }
-
-#divBtnFooter {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  background-color: white;
-  width: 120px;
-  height: 50px;
-  border-radius: 4px;
-  border: 0px;
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-  color: #3c3c3c;
-  font-weight: bold;
-}
-#divHrFooter {
+#hr-footer {
   width: 100%;
   hr {
     margin-left: auto;
@@ -78,7 +45,7 @@ footer {
   }
 }
 
-#divNavFooter {
+.my-class-name-nav-footer {
   margin-top: 40px;
   display: flex;
   flex-flow: row wrap;

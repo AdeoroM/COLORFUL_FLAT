@@ -4,36 +4,19 @@
 
 $Color-font: rgb(97, 97, 97);
 
-#team {
+.my-name-class-our-team {
   @extend %DisplayView;
   background-color: #deb5c5;
 }
 
-#divTeam {
+.my-name-class-content-our-team {
   @extend %Display;
   justify-content: center;
   width: 940px;
   margin: 40px 0px;
 }
 
-#divTittleTeam {
-  width: 400px;
-  @extend %Display;
-  text-align: center;
-  margin-bottom: 40px;
-  color: white;
-  h1 {
-    font-size: 45px;
-    margin: 0 auto;
-    font-family: "Roboto Slab", serif;
-  }
-  p {
-    font-size: 13px;
-    font-family: sans-serif;
-    opacity: 0.5;
-  }
-}
-#divInformationTeam {
+#content-information-team {
   margin-top: 80px;
   margin-bottom: 60px;
   width: 940px;

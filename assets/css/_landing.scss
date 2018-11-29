@@ -1,0 +1,54 @@
+.my-class-name-landing {
+  @extend %DisplayView;
+  background-color: $background;
+}
+
+.my-class-name-content-landing {
+  width: 940px;
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    border: 2px solid white;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 5px;
+
+    position: relative;
+    top: 4px;
+  }
+  input[type="radio"]:checked {
+    background-color: white;
+  }
+}
+
+#information-landing {
+  @extend %Display;
+  width: 840px;
+  margin-top: 40px;
+  div {
+    align-items: center;
+    h1 {
+      color: white;
+      font-size: 45px;
+      padding-bottom: 20px;
+      text-align: center;
+      font-family: "Roboto Slab", serif;
+    }
+  }
+}
+#text-information-landing {
+  width: 450px;
+}
+#radio-informatio-landing {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
