@@ -1,0 +1,100 @@
+%Display {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+$Color-font: rgb(97, 97, 97);
+
+@mixin div-width($property) {
+  width: $property / 940px * 100%;
+}
+
+#divWorks {
+  width: 940px;
+  margin: 40px 0px;
+  @extend %Display;
+  color: white;
+}
+#divTittleWorks {
+  @include div-width(400px);
+  @extend %Display;
+  text-align: center;
+  margin-bottom: 40px;
+  h1 {
+    font-size: 45px;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+#divNavWorks {
+  @include div-width(540px);
+  margin-bottom: 20px;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.aNavWorks {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.aNavWorks:hover,
+.aNavWorks:focus,
+.aNavWorks:active {
+  background-color: white;
+  color: #99d2a7;
+}
+
+[class^="aNavWorks"] {
+  padding: 10px 10px;
+  cursor: pointer;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#divImageWorks {
+  display: grid;
+  margin: 20px 0px;
+  height: 450px;
+  width: 100%;
+  grid-row-gap: 50px;
+  justify-content: space-between;
+  grid-template: 44.4% 44.4%/ 28% 28% 28%;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+#divBtnWorks {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  border: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: $Color-font;
+  font-weight: bold;
+}

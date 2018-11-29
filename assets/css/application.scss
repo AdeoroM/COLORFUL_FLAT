@@ -1,0 +1,56 @@
+$background: #a6d1d8;
+
+%DisplayVew {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+body {
+  margin: 0 auto;
+  a {
+    text-decoration: none;
+  }
+}
+header {
+  @import "header";
+  @extend %DisplayVew;
+  background-color: $background;
+}
+#Information {
+  @import "information";
+  @extend %DisplayVew;
+}
+
+section {
+  @import "works";
+  @extend %DisplayVew;
+  background-color: #99d2a7;
+}
+
+#news {
+  @import "news";
+  @extend %DisplayVew;
+}
+#team {
+  @import "team";
+  @extend %DisplayVew;
+  background-color: #deb5c5;
+}
+#posts {
+  @import "posts";
+  @extend %DisplayVew;
+  background-color: $background;
+}
+
+footer {
+  @import "footer";
+  @extend %DisplayVew;
+  background-color: #3c3c3c;
+}
+
+@media screen and (max-width: 940px) {
+  body {
+    width: 940px;
+  }
+}

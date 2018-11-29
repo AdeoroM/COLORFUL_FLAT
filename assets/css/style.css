@@ -1,0 +1,607 @@
+footer, #posts, #team, #news, section, #Information, header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+body {
+  margin: 0 auto;
+}
+body a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #a6d1d8;
+}
+header footer #divInputFooter, footer header #divInputFooter, header footer #div-tittle-footer, footer header #div-tittle-footer, header footer #div-footer, footer header #div-footer, header #posts #divTittlePosts, #posts header #divTittlePosts, header #posts #divPosts, #posts header #divPosts, header #team #divTittleTeam, #team header #divTittleTeam, header #team #divTeam, #team header #divTeam, header #news #divNews, #news header #divNews, header section #divTittleWorks, section header #divTittleWorks, header section #divWorks, section header #divWorks, header #Information #divContainerInformation, #Information header #divContainerInformation, header #divImageHeader, header #divNavegationHeader nav, header #divNavegationHeader {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header #divHeader {
+  width: 940px;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header #divNavegationHeader div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header #divNavegationHeader div p {
+  color: #3a494c;
+  font-size: 25px;
+}
+header #divNavegationHeader nav {
+  width: 500px;
+}
+header #divNavegationHeader nav a {
+  text-decoration: none;
+}
+header .my-class-name-a-nav {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+header .my-class-name-a-nav:hover,
+header .my-class-name-a-nav:focus,
+header .my-class-name-a-nav:active {
+  background-color: #3a494c;
+  color: #a6d1d8;
+}
+header [class^=my-class-name-a-nav] {
+  padding: 10px 10px;
+  cursor: pointer;
+  color: #3a494c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header #divImageHeader {
+  width: 840px;
+  margin-top: 40px;
+}
+header #divImageHeader div {
+  align-items: center;
+}
+header #divImageHeader div h1 {
+  color: white;
+  font-size: 45px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+header #divTextImageHeader {
+  width: 450px;
+}
+header #divRadio {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+header input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+header input[type=radio]:checked {
+  background-color: white;
+}
+
+#Information footer #divInputFooter, footer #Information #divInputFooter, #Information footer #div-tittle-footer, footer #Information #div-tittle-footer, #Information footer #div-footer, footer #Information #div-footer, #Information #posts #divTittlePosts, #posts #Information #divTittlePosts, #Information #posts #divPosts, #posts #Information #divPosts, #Information #team #divTittleTeam, #team #Information #divTittleTeam, #Information #team #divTeam, #team #Information #divTeam, #Information #news #divNews, #news #Information #divNews, #Information section #divTittleWorks, section #Information #divTittleWorks, #Information section #divWorks, section #Information #divWorks, #Information #divContainerInformation, #Information header #divNavegationHeader, header #Information #divNavegationHeader, #Information header #divNavegationHeader nav, header #divNavegationHeader #Information nav, #Information header #divImageHeader, header #Information #divImageHeader {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#Information #divContainerInformation {
+  margin: 80px 0px;
+  width: 940px;
+}
+#Information #divContainerInformation div {
+  width: 260px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#Information #divContainerInformation div img {
+  height: 115px;
+}
+#Information #divContainerInformation div h3 {
+  font-size: 19px;
+}
+#Information #divContainerInformation div p {
+  color: #616161;
+  font-size: 15px;
+}
+
+section {
+  background-color: #99d2a7;
+}
+section footer #divInputFooter, footer section #divInputFooter, section footer #div-tittle-footer, footer section #div-tittle-footer, section footer #div-footer, footer section #div-footer, section #posts #divTittlePosts, #posts section #divTittlePosts, section #posts #divPosts, #posts section #divPosts, section #team #divTittleTeam, #team section #divTittleTeam, section #team #divTeam, #team section #divTeam, section #news #divNews, #news section #divNews, section #divTittleWorks, section #divWorks, section header #divNavegationHeader, header section #divNavegationHeader, section header #divNavegationHeader nav, header #divNavegationHeader section nav, section header #divImageHeader, header section #divImageHeader, section #Information #divContainerInformation, #Information section #divContainerInformation {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+section #divWorks {
+  width: 940px;
+  margin: 40px 0px;
+  color: white;
+}
+section #divTittleWorks {
+  width: 42.5531914894%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+section #divTittleWorks h1 {
+  font-size: 45px;
+  margin: 0 auto;
+}
+section #divTittleWorks p {
+  font-size: 14px;
+}
+section #divNavWorks {
+  width: 57.4468085106%;
+  margin-bottom: 20px;
+}
+section #divNavWorks nav {
+  display: flex;
+  justify-content: space-between;
+}
+section #divNavWorks nav a {
+  text-decoration: none;
+}
+section .aNavWorks {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+section .aNavWorks:hover,
+section .aNavWorks:focus,
+section .aNavWorks:active {
+  background-color: white;
+  color: #99d2a7;
+}
+section [class^=aNavWorks] {
+  padding: 10px 10px;
+  cursor: pointer;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+section #divImageWorks {
+  display: grid;
+  margin: 20px 0px;
+  height: 450px;
+  width: 100%;
+  grid-row-gap: 50px;
+  justify-content: space-between;
+  grid-template: 44.4% 44.4%/28% 28% 28%;
+}
+section #divImageWorks img {
+  height: 100%;
+  width: 100%;
+}
+section #divBtnWorks {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  border: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #616161;
+  font-weight: bold;
+}
+
+#news footer #divInputFooter, footer #news #divInputFooter, #news footer #div-tittle-footer, footer #news #div-tittle-footer, #news footer #div-footer, footer #news #div-footer, #news #posts #divTittlePosts, #posts #news #divTittlePosts, #news #posts #divPosts, #posts #news #divPosts, #news #team #divTittleTeam, #team #news #divTittleTeam, #news #team #divTeam, #team #news #divTeam, #news #divNews, #news header #divNavegationHeader, header #news #divNavegationHeader, #news header #divNavegationHeader nav, header #divNavegationHeader #news nav, #news header #divImageHeader, header #news #divImageHeader, #news #Information #divContainerInformation, #Information #news #divContainerInformation, #news section #divWorks, section #news #divWorks, #news section #divTittleWorks, section #news #divTittleWorks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+#news #divNews {
+  flex-flow: column wrap;
+  margin: 60px 0px;
+  width: 940px;
+}
+#news #divNews div img {
+  width: 100%;
+  height: 100%;
+}
+#news #divNews div input {
+  width: 120px;
+  height: 50px;
+  border: 0px;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#news #divNews div h3 {
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+#news #divNews div p {
+  font-size: 20px;
+  margin-top: 5px;
+  color: #616161;
+}
+#news #divNews1 {
+  display: grid;
+  width: 940px;
+  justify-content: space-between;
+  grid-template-columns: 240px 660px;
+  margin-bottom: 70px;
+}
+#news #divNews2 {
+  display: grid;
+  width: 940px;
+  justify-content: space-between;
+  grid-template-columns: 660px 240px;
+  margin-top: 50px;
+}
+#news #divNews2 div:nth-of-type(1) {
+  order: 2;
+}
+#news #divBtnNews1 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #99d2a7;
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  border: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+#news #divBtnNews2 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #a6d1d8;
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  border: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+#news .my-class-name-information-news {
+  display: flex;
+  flex-flow: column wrap;
+}
+#news #divHr {
+  width: 100%;
+}
+#news #divHr hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c7c7c7;
+}
+
+#team {
+  background-color: #deb5c5;
+}
+#team footer #divInputFooter, footer #team #divInputFooter, #team footer #div-tittle-footer, footer #team #div-tittle-footer, #team footer #div-footer, footer #team #div-footer, #team #posts #divTittlePosts, #posts #team #divTittlePosts, #team #posts #divPosts, #posts #team #divPosts, #team #divTittleTeam, #team #divTeam, #team header #divNavegationHeader, header #team #divNavegationHeader, #team header #divNavegationHeader nav, header #divNavegationHeader #team nav, #team header #divImageHeader, header #team #divImageHeader, #team #Information #divContainerInformation, #Information #team #divContainerInformation, #team section #divWorks, section #team #divWorks, #team section #divTittleWorks, section #team #divTittleWorks, #team #news #divNews, #news #team #divNews {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+#team #divTeam {
+  width: 940px;
+  margin: 40px 0px;
+}
+#team #divTittleTeam {
+  width: 400px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+#team #divTittleTeam h1 {
+  font-size: 45px;
+  margin: 0 auto;
+}
+#team #divTittleTeam p {
+  font-size: 14px;
+}
+#team #divInformationTeam {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  width: 940px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#team .my-class-name-information-team {
+  width: 25.5319148936%;
+  display: flex;
+  margin: 0px;
+  flex-flow: column wrap;
+  height: auto;
+}
+#team .my-class-name-information-team div h1 {
+  font-size: 24px;
+  margin: 10px 0px;
+}
+#team .my-class-name-information-team div h3 {
+  font-size: 17px;
+  margin: 5px 0px;
+}
+#team .my-class-name-information-team div p {
+  color: #616161;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+#team .my-class-name-image-information-Team {
+  display: flex;
+  width: 100%;
+  height: 180px;
+  background-color: #ebebeb;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+#team .my-class-name-content-information-Team {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 0px;
+  background-color: white;
+}
+#team .my-class-name-content-information-Team nav {
+  display: flex;
+  width: 70.2127659574%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+#team .my-class-name-content-information-Team nav input {
+  width: 32px;
+  height: 32px;
+}
+
+#posts {
+  background-color: #a6d1d8;
+}
+#posts footer #divInputFooter, footer #posts #divInputFooter, #posts footer #div-tittle-footer, footer #posts #div-tittle-footer, #posts footer #div-footer, footer #posts #div-footer, #posts #divTittlePosts, #posts #divPosts, #posts header #divNavegationHeader, header #posts #divNavegationHeader, #posts header #divNavegationHeader nav, header #divNavegationHeader #posts nav, #posts header #divImageHeader, header #posts #divImageHeader, #posts #Information #divContainerInformation, #Information #posts #divContainerInformation, #posts section #divWorks, section #posts #divWorks, #posts section #divTittleWorks, section #posts #divTittleWorks, #posts #news #divNews, #news #posts #divNews, #posts #team #divTeam, #team #posts #divTeam, #posts #team #divTittleTeam, #team #posts #divTittleTeam {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+#posts #divPosts {
+  width: 940px;
+  margin: 40px 0px;
+}
+#posts #divTittlePosts {
+  width: 400px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+#posts #divTittlePosts h1 {
+  font-size: 45px;
+  margin: 0 auto;
+}
+#posts #divTittlePosts p {
+  font-size: 14px;
+}
+#posts #divInformationPosts {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  width: 940px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#posts .my-class-name-container-information-posts {
+  width: 30.8510638298%;
+  display: flex;
+  margin: 0px;
+  flex-flow: column wrap;
+  height: auto;
+}
+#posts .my-class-name-container-information-posts div h1 {
+  font-size: 22px;
+  margin: 10px 0px;
+}
+#posts .my-class-name-container-information-posts div h3 {
+  font-size: 17px;
+  margin: 5px 0px;
+}
+#posts .my-class-name-container-information-posts div p {
+  color: #616161;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+#posts .my-class-name-image-posts {
+  display: flex;
+  width: 100%;
+  height: 140px;
+  background-color: #ebebeb;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+#posts .my-class-name-information-posts {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 0px;
+  background-color: white;
+}
+#posts .my-class-name-information-posts input {
+  width: 32px;
+  height: 32px;
+}
+#posts #divBtnPosts {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  border: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #616161;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #3c3c3c;
+}
+footer #divInputFooter, footer #div-tittle-footer, footer #div-footer, footer header #divNavegationHeader, header footer #divNavegationHeader, footer header #divNavegationHeader nav, header #divNavegationHeader footer nav, footer header #divImageHeader, header footer #divImageHeader, footer #Information #divContainerInformation, #Information footer #divContainerInformation, footer section #divWorks, section footer #divWorks, footer section #divTittleWorks, section footer #divTittleWorks, footer #news #divNews, #news footer #divNews, footer #team #divTeam, #team footer #divTeam, footer #team #divTittleTeam, #team footer #divTittleTeam, footer #posts #divPosts, #posts footer #divPosts, footer #posts #divTittlePosts, #posts footer #divTittlePosts {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+footer #div-footer {
+  width: 940px;
+  margin: 40px 0px;
+}
+footer #div-tittle-footer {
+  width: 400px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+footer #div-tittle-footer h1 {
+  font-size: 45px;
+  margin: 0 auto;
+}
+footer #div-tittle-footer p {
+  font-size: 14px;
+}
+footer #divInputFooter {
+  width: 450px;
+  height: 300px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+footer .my-class-name-inputs {
+  border-radius: 8px;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 14px;
+  height: 50px;
+}
+footer #inputMessage {
+  padding-top: 10px;
+  justify-content: flex-start;
+  vertical-align: top;
+  height: 120px;
+}
+footer #divBtnFooter {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  border: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+footer #divHrFooter {
+  width: 100%;
+}
+footer #divHrFooter hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  border-color: #292929;
+  border-style: solid;
+}
+footer #divNavFooter {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-between;
+  font-family: Helvetica, sans-serif;
+}
+footer #divNavFooter input {
+  height: 45px;
+  width: 45px;
+}
+footer #divNavFooter nav {
+  display: flex;
+  width: 210px;
+  justify-content: space-between;
+}
+footer #divNavFooter a {
+  color: goldenrod;
+}
+footer #divNavFooter p {
+  color: #777777;
+}
+
+@media screen and (max-width: 940px) {
+  body {
+    width: 940px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

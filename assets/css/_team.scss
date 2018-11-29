@@ -1,0 +1,90 @@
+%Display {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin div-width($property) {
+  width: $property / 940px * 100%;
+}
+
+$Color-font: rgb(97, 97, 97);
+
+#divTeam {
+  @extend %Display;
+  width: 940px;
+  margin: 40px 0px;
+}
+
+#divTittleTeam {
+  width: 400px;
+  @extend %Display;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+  h1 {
+    font-size: 45px;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+#divInformationTeam {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  width: 940px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.my-class-name-information-team {
+  @include div-width(240px);
+  display: flex;
+  margin: 0px;
+  flex-flow: column wrap;
+  height: auto;
+  div {
+    h1 {
+      font-size: 24px;
+      margin: 10px 0px;
+    }
+    h3 {
+      font-size: 17px;
+      margin: 5px 0px;
+    }
+    p {
+      color: $Color-font;
+      font-size: 15px;
+      margin: 10px 0px;
+    }
+  }
+}
+.my-class-name-image-information-Team {
+  display: flex;
+  width: 100%;
+  height: 180px;
+  background-color: rgb(235, 235, 235);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.my-class-name-content-information-Team {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 0px;
+  background-color: white;
+  nav {
+    display: flex;
+    @include div-width(660px);
+    justify-content: space-between;
+    margin: 0 auto;
+    input {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
