@@ -46,7 +46,7 @@ $Color-font: rgb(119, 119, 119);
     }
   }
 }
-.aNavWorks {
+.my-class-name-a-nav-works {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -60,14 +60,14 @@ $Color-font: rgb(119, 119, 119);
   transition-property: color, background-color;
 }
 
-.aNavWorks:hover,
-.aNavWorks:focus,
-.aNavWorks:active {
+.my-class-name-a-nav-works:hover,
+.my-class-name-a-nav-works:focus,
+.my-class-name-a-nav-works:active {
   background-color: white;
   color: #99d2a7;
 }
 
-[class^="aNavWorks"] {
+[class^="my-class-name-a-nav-works"] {
   padding: 10px 10px;
   cursor: pointer;
   color: white;
