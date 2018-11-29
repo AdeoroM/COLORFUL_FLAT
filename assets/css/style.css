@@ -1,9 +1,3 @@
-footer, #posts, #team, #news, section, #Information, header {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
 body {
   margin: 0 auto;
 }
@@ -11,38 +5,49 @@ body a {
   text-decoration: none;
 }
 
-header {
-  background-color: #a6d1d8;
+footer, #posts, #team, #news, #section, #Information, header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
-header footer #divInputFooter, footer header #divInputFooter, header footer #div-tittle-footer, footer header #div-tittle-footer, header footer #div-footer, footer header #div-footer, header #posts #divTittlePosts, #posts header #divTittlePosts, header #posts #divPosts, #posts header #divPosts, header #team #divTittleTeam, #team header #divTittleTeam, header #team #divTeam, #team header #divTeam, header #news #divNews, #news header #divNews, header section #divTittleWorks, section header #divTittleWorks, header section #divWorks, section header #divWorks, header #Information #divContainerInformation, #Information header #divContainerInformation, header #divImageHeader, header #divNavegationHeader nav, header #divNavegationHeader {
+
+#divTittlePosts, #divPosts, #divTittleTeam, #divTeam, #divNews, #divContainerInformation, #divImageHeader, #divNavegationHeader nav, #divNavegationHeader {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   align-items: center;
   justify-content: space-between;
 }
-header #divHeader {
+
+header {
+  background-color: #a6d1d8;
+}
+
+#divHeader {
   width: 940px;
   height: auto;
   font-family: Arial, Helvetica, sans-serif;
 }
-header #divNavegationHeader div {
+
+#divNavegationHeader div {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
 }
-header #divNavegationHeader div p {
+#divNavegationHeader div p {
   font-family: "Roboto Slab", serif;
   color: #3a494c;
   font-size: 25px;
 }
-header #divNavegationHeader nav {
+#divNavegationHeader nav {
   width: 500px;
 }
-header #divNavegationHeader nav a {
+#divNavegationHeader nav a {
   text-decoration: none;
 }
-header .my-class-name-a-nav {
+
+.my-class-name-a-nav {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -55,44 +60,50 @@ header .my-class-name-a-nav {
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
-header .my-class-name-a-nav:hover,
-header .my-class-name-a-nav:focus,
-header .my-class-name-a-nav:active {
+
+.my-class-name-a-nav:hover,
+.my-class-name-a-nav:focus,
+.my-class-name-a-nav:active {
   background-color: #3a494c;
   color: #a6d1d8;
 }
-header [class^=my-class-name-a-nav] {
+
+[class^=my-class-name-a-nav] {
   padding: 10px 10px;
   cursor: pointer;
   color: #3a494c;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-header #divImageHeader {
+
+#divImageHeader {
   width: 840px;
   margin-top: 40px;
 }
-header #divImageHeader div {
+#divImageHeader div {
   align-items: center;
 }
-header #divImageHeader div h1 {
+#divImageHeader div h1 {
   color: white;
   font-size: 45px;
   padding-bottom: 20px;
   text-align: center;
   font-family: "Roboto Slab", serif;
 }
-header #divTextImageHeader {
+
+#divTextImageHeader {
   width: 450px;
 }
-header #divRadio {
+
+#divRadio {
   display: flex;
   margin-top: 20px;
   margin-bottom: 40px;
   align-items: center;
   justify-content: center;
 }
-header input {
+
+input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -106,82 +117,83 @@ header input {
   position: relative;
   top: 4px;
 }
-header input[type=radio]:checked {
+
+input[type=radio]:checked {
   background-color: white;
 }
 
-#Information footer #divInputFooter, footer #Information #divInputFooter, #Information footer #div-tittle-footer, footer #Information #div-tittle-footer, #Information footer #div-footer, footer #Information #div-footer, #Information #posts #divTittlePosts, #posts #Information #divTittlePosts, #Information #posts #divPosts, #posts #Information #divPosts, #Information #team #divTittleTeam, #team #Information #divTittleTeam, #Information #team #divTeam, #team #Information #divTeam, #Information #news #divNews, #news #Information #divNews, #Information section #divTittleWorks, section #Information #divTittleWorks, #Information section #divWorks, section #Information #divWorks, #Information #divContainerInformation, #Information header #divNavegationHeader, header #Information #divNavegationHeader, #Information header #divNavegationHeader nav, header #divNavegationHeader #Information nav, #Information header #divImageHeader, header #Information #divImageHeader {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-#Information #divContainerInformation {
+#divContainerInformation {
   margin: 80px 0px;
   width: 940px;
 }
-#Information #divContainerInformation div {
+#divContainerInformation div {
   width: 260px;
   margin: 0px;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-#Information #divContainerInformation div img {
+#divContainerInformation div img {
   height: 115px;
 }
-#Information #divContainerInformation div h3 {
+#divContainerInformation div h3 {
   font-size: 18px;
   font-family: sans-serif;
 }
-#Information #divContainerInformation div p {
+#divContainerInformation div p {
   color: #616161;
   font-size: 14px;
   font-family: sans-serif;
 }
 
-section {
-  background-color: #99d2a7;
-}
-section footer #divInputFooter, footer section #divInputFooter, section footer #div-tittle-footer, footer section #div-tittle-footer, section footer #div-footer, footer section #div-footer, section #posts #divTittlePosts, #posts section #divTittlePosts, section #posts #divPosts, #posts section #divPosts, section #team #divTittleTeam, #team section #divTittleTeam, section #team #divTeam, #team section #divTeam, section #news #divNews, #news section #divNews, section #divTittleWorks, section #divWorks, section header #divNavegationHeader, header section #divNavegationHeader, section header #divNavegationHeader nav, header #divNavegationHeader section nav, section header #divImageHeader, header section #divImageHeader, section #Information #divContainerInformation, #Information section #divContainerInformation {
+#divInputFooter, #div-tittle-footer, #div-footer, #divTittleWorks, #divWorks {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: space-between;
 }
-section #divWorks {
+
+#section {
+  background-color: #99d2a7;
+}
+
+#divWorks {
   width: 940px;
   margin: 40px 0px;
   color: white;
 }
-section #divTittleWorks {
-  width: 42.5531914894%;
+
+#divTittleWorks {
+  width: 400px;
   text-align: center;
   margin-bottom: 40px;
 }
-section #divTittleWorks h1 {
+#divTittleWorks h1 {
   font-size: 45px;
   margin: 0 auto;
   font-family: "Roboto Slab", serif;
 }
-section #divTittleWorks p {
+#divTittleWorks p {
   font-size: 13px;
   color: white;
   font-family: sans-serif;
   opacity: 0.5;
 }
-section #divNavWorks {
+
+#divNavWorks {
   width: 57.4468085106%;
   margin-bottom: 20px;
 }
-section #divNavWorks nav {
+#divNavWorks nav {
   display: flex;
   justify-content: space-between;
 }
-section #divNavWorks nav a {
+#divNavWorks nav a {
   text-decoration: none;
   font-family: Arial, sans-serif;
 }
-section .my-class-name-a-nav-works {
+
+.my-class-name-a-nav-works {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -194,20 +206,23 @@ section .my-class-name-a-nav-works {
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
-section .my-class-name-a-nav-works:hover,
-section .my-class-name-a-nav-works:focus,
-section .my-class-name-a-nav-works:active {
+
+.my-class-name-a-nav-works:hover,
+.my-class-name-a-nav-works:focus,
+.my-class-name-a-nav-works:active {
   background-color: white;
   color: #99d2a7;
 }
-section [class^=my-class-name-a-nav-works] {
+
+[class^=my-class-name-a-nav-works] {
   padding: 10px 10px;
   cursor: pointer;
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-section #divImageWorks {
+
+#divImageWorks {
   display: grid;
   margin: 20px 0px;
   height: 450px;
@@ -216,11 +231,12 @@ section #divImageWorks {
   justify-content: space-between;
   grid-template: 44.4% 44.4%/28% 28% 28%;
 }
-section #divImageWorks img {
+#divImageWorks img {
   height: 100%;
   width: 100%;
 }
-section #divBtnWorks {
+
+#divBtnWorks {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -240,23 +256,18 @@ section #divBtnWorks {
 #news {
   background-color: #f1f1f1;
 }
-#news footer #divInputFooter, footer #news #divInputFooter, #news footer #div-tittle-footer, footer #news #div-tittle-footer, #news footer #div-footer, footer #news #div-footer, #news #posts #divTittlePosts, #posts #news #divTittlePosts, #news #posts #divPosts, #posts #news #divPosts, #news #team #divTittleTeam, #team #news #divTittleTeam, #news #team #divTeam, #team #news #divTeam, #news #divNews, #news header #divNavegationHeader, header #news #divNavegationHeader, #news header #divNavegationHeader nav, header #divNavegationHeader #news nav, #news header #divImageHeader, header #news #divImageHeader, #news #Information #divContainerInformation, #Information #news #divContainerInformation, #news section #divWorks, section #news #divWorks, #news section #divTittleWorks, section #news #divTittleWorks {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-items: center;
-}
-#news #divNews {
+
+#divNews {
   flex-flow: column wrap;
   margin: 60px 0px;
   width: 940px;
   font-family: sans-serif;
 }
-#news #divNews div img {
+#divNews div img {
   width: 100%;
   height: 100%;
 }
-#news #divNews div input {
+#divNews div input {
   width: 120px;
   height: 50px;
   border: 0px;
@@ -265,33 +276,36 @@ section #divBtnWorks {
   font-size: 14px;
   font-weight: bold;
 }
-#news #divNews div h3 {
+#divNews div h3 {
   font-size: 24px;
   margin-bottom: 5px;
 }
-#news #divNews div p {
+#divNews div p {
   font-size: 18px;
   margin-top: 5px;
   color: #616161;
 }
-#news #divNews1 {
+
+#divNews1 {
   display: grid;
   width: 940px;
   justify-content: space-between;
   grid-template-columns: 240px 660px;
   margin-bottom: 70px;
 }
-#news #divNews2 {
+
+#divNews2 {
   display: grid;
   width: 940px;
   justify-content: space-between;
   grid-template-columns: 660px 240px;
   margin-top: 50px;
 }
-#news #divNews2 div:nth-of-type(1) {
+#divNews2 div:nth-of-type(1) {
   order: 2;
 }
-#news #divBtnNews1 {
+
+#divBtnNews1 {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -307,7 +321,8 @@ section #divBtnWorks {
   color: white;
   font-weight: bold;
 }
-#news #divBtnNews2 {
+
+#divBtnNews2 {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -323,14 +338,16 @@ section #divBtnWorks {
   color: white;
   font-weight: bold;
 }
-#news .my-class-name-information-news {
+
+.my-class-name-information-news {
   display: flex;
   flex-flow: column wrap;
 }
-#news #divHr {
+
+#divHr {
   width: 100%;
 }
-#news #divHr hr {
+#divHr hr {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -344,33 +361,31 @@ section #divBtnWorks {
 #team {
   background-color: #deb5c5;
 }
-#team footer #divInputFooter, footer #team #divInputFooter, #team footer #div-tittle-footer, footer #team #div-tittle-footer, #team footer #div-footer, footer #team #div-footer, #team #posts #divTittlePosts, #posts #team #divTittlePosts, #team #posts #divPosts, #posts #team #divPosts, #team #divTittleTeam, #team #divTeam, #team header #divNavegationHeader, header #team #divNavegationHeader, #team header #divNavegationHeader nav, header #divNavegationHeader #team nav, #team header #divImageHeader, header #team #divImageHeader, #team #Information #divContainerInformation, #Information #team #divContainerInformation, #team section #divWorks, section #team #divWorks, #team section #divTittleWorks, section #team #divTittleWorks, #team #news #divNews, #news #team #divNews {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-#team #divTeam {
+
+#divTeam {
+  justify-content: center;
   width: 940px;
   margin: 40px 0px;
 }
-#team #divTittleTeam {
+
+#divTittleTeam {
   width: 400px;
   text-align: center;
   margin-bottom: 40px;
   color: white;
 }
-#team #divTittleTeam h1 {
+#divTittleTeam h1 {
   font-size: 45px;
   margin: 0 auto;
   font-family: "Roboto Slab", serif;
 }
-#team #divTittleTeam p {
+#divTittleTeam p {
   font-size: 13px;
   font-family: sans-serif;
   opacity: 0.5;
 }
-#team #divInformationTeam {
+
+#divInformationTeam {
   margin-top: 80px;
   margin-bottom: 60px;
   width: 940px;
@@ -378,31 +393,33 @@ section #divBtnWorks {
   flex-flow: row wrap;
   justify-content: space-between;
 }
-#team .my-class-name-information-team {
+
+.my-class-name-information-team {
   width: 25.5319148936%;
   display: flex;
   margin: 0px;
   flex-flow: column wrap;
   height: auto;
 }
-#team .my-class-name-information-team div h1 {
+.my-class-name-information-team div h1 {
   font-size: 26px;
   margin: 10px 0px;
   font-family: "Roboto Slab", serif;
 }
-#team .my-class-name-information-team div h3 {
+.my-class-name-information-team div h3 {
   font-size: 16px;
   margin: 5px 0px;
   font-family: sans-serif;
 }
-#team .my-class-name-information-team div p {
+.my-class-name-information-team div p {
   color: #616161;
   font-size: 14px;
   margin: 10px 0px;
   font-family: sans-serif;
   line-height: 18px;
 }
-#team .my-class-name-image-information-Team {
+
+.my-class-name-image-information-Team {
   display: flex;
   width: 100%;
   height: 180px;
@@ -411,7 +428,8 @@ section #divBtnWorks {
   justify-content: center;
   margin-bottom: 0px;
 }
-#team .my-class-name-content-information-Team {
+
+.my-class-name-content-information-Team {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
@@ -419,13 +437,13 @@ section #divBtnWorks {
   margin-top: 0px;
   background-color: white;
 }
-#team .my-class-name-content-information-Team nav {
+.my-class-name-content-information-Team nav {
   display: flex;
   width: 70.2127659574%;
   justify-content: space-between;
   margin: 0 auto;
 }
-#team .my-class-name-content-information-Team nav input {
+.my-class-name-content-information-Team nav input {
   width: 32px;
   height: 32px;
 }
@@ -433,30 +451,27 @@ section #divBtnWorks {
 #posts {
   background-color: #a6d1d8;
 }
-#posts footer #divInputFooter, footer #posts #divInputFooter, #posts footer #div-tittle-footer, footer #posts #div-tittle-footer, #posts footer #div-footer, footer #posts #div-footer, #posts #divTittlePosts, #posts #divPosts, #posts header #divNavegationHeader, header #posts #divNavegationHeader, #posts header #divNavegationHeader nav, header #divNavegationHeader #posts nav, #posts header #divImageHeader, header #posts #divImageHeader, #posts #Information #divContainerInformation, #Information #posts #divContainerInformation, #posts section #divWorks, section #posts #divWorks, #posts section #divTittleWorks, section #posts #divTittleWorks, #posts #news #divNews, #news #posts #divNews, #posts #team #divTeam, #team #posts #divTeam, #posts #team #divTittleTeam, #team #posts #divTittleTeam {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-#posts #divPosts {
+
+#divPosts {
   width: 940px;
   margin: 40px 0px;
 }
-#posts #divTittlePosts {
+
+#divTittlePosts {
   width: 400px;
   text-align: center;
   margin-bottom: 40px;
   color: white;
 }
-#posts #divTittlePosts h1 {
+#divTittlePosts h1 {
   font-size: 45px;
   margin: 0 auto;
 }
-#posts #divTittlePosts p {
+#divTittlePosts p {
   font-size: 14px;
 }
-#posts #divInformationPosts {
+
+#divInformationPosts {
   margin-top: 80px;
   margin-bottom: 60px;
   width: 940px;
@@ -464,32 +479,34 @@ section #divBtnWorks {
   flex-flow: row wrap;
   justify-content: space-between;
 }
-#posts .my-class-name-container-information-posts {
+
+.my-class-name-container-information-posts {
   width: 30.8510638298%;
   display: flex;
   margin: 0px;
   flex-flow: column wrap;
   height: auto;
 }
-#posts .my-class-name-container-information-posts div h1 {
+.my-class-name-container-information-posts div h1 {
   font-size: 22px;
   margin: 10px 0px;
   font-family: sans-serif;
 }
-#posts .my-class-name-container-information-posts div h3 {
+.my-class-name-container-information-posts div h3 {
   color: #616161;
   font-size: 14px;
   font-style: italic;
   font-family: sans-serif;
   margin: 5px 0px;
 }
-#posts .my-class-name-container-information-posts div p {
+.my-class-name-container-information-posts div p {
   color: #616161;
   font-size: 14px;
   margin: 10px 0px;
   font-family: sans-serif;
 }
-#posts .my-class-name-image-posts {
+
+.my-class-name-image-posts {
   display: flex;
   width: 100%;
   height: 140px;
@@ -498,7 +515,8 @@ section #divBtnWorks {
   justify-content: center;
   margin-bottom: 0px;
 }
-#posts .my-class-name-information-posts {
+
+.my-class-name-information-posts {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -506,11 +524,12 @@ section #divBtnWorks {
   margin-top: 0px;
   background-color: white;
 }
-#posts .my-class-name-information-posts input {
+.my-class-name-information-posts input {
   width: 32px;
   height: 32px;
 }
-#posts #divBtnPosts {
+
+#divBtnPosts {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -530,39 +549,37 @@ section #divBtnWorks {
 footer {
   background-color: #3c3c3c;
 }
-footer #divInputFooter, footer #div-tittle-footer, footer #div-footer, footer header #divNavegationHeader, header footer #divNavegationHeader, footer header #divNavegationHeader nav, header #divNavegationHeader footer nav, footer header #divImageHeader, header footer #divImageHeader, footer #Information #divContainerInformation, #Information footer #divContainerInformation, footer section #divWorks, section footer #divWorks, footer section #divTittleWorks, section footer #divTittleWorks, footer #news #divNews, #news footer #divNews, footer #team #divTeam, #team footer #divTeam, footer #team #divTittleTeam, #team footer #divTittleTeam, footer #posts #divPosts, #posts footer #divPosts, footer #posts #divTittlePosts, #posts footer #divTittlePosts {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-footer #div-footer {
+
+#div-footer {
   width: 940px;
   margin: 40px 0px;
 }
-footer #div-tittle-footer {
+
+#div-tittle-footer {
   width: 400px;
   text-align: center;
   margin-bottom: 40px;
   color: white;
 }
-footer #div-tittle-footer h1 {
+#div-tittle-footer h1 {
   font-size: 45px;
   margin: 0 auto;
   font-family: "Roboto Slab", serif;
 }
-footer #div-tittle-footer p {
+#div-tittle-footer p {
   font-size: 13px;
   font-family: sans-serif;
 }
-footer #divInputFooter {
+
+#divInputFooter {
   width: 450px;
   height: 300px;
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 70px;
 }
-footer .my-class-name-inputs {
+
+.my-class-name-inputs {
   border-radius: 8px;
   width: 100%;
   padding-left: 20px;
@@ -570,13 +587,15 @@ footer .my-class-name-inputs {
   border: 0px;
   height: 50px;
 }
-footer #inputMessage {
+
+#inputMessage {
   padding-top: 10px;
   justify-content: flex-start;
   vertical-align: top;
   height: 120px;
 }
-footer #divBtnFooter {
+
+#divBtnFooter {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -592,17 +611,19 @@ footer #divBtnFooter {
   color: #3c3c3c;
   font-weight: bold;
 }
-footer #divHrFooter {
+
+#divHrFooter {
   width: 100%;
 }
-footer #divHrFooter hr {
+#divHrFooter hr {
   margin-left: auto;
   margin-right: auto;
   border-width: 1px;
   border-color: #292929;
   border-style: solid;
 }
-footer #divNavFooter {
+
+#divNavFooter {
   margin-top: 40px;
   display: flex;
   flex-flow: row wrap;
@@ -610,19 +631,19 @@ footer #divNavFooter {
   justify-content: space-between;
   font-family: Helvetica, sans-serif;
 }
-footer #divNavFooter input {
+#divNavFooter input {
   height: 45px;
   width: 45px;
 }
-footer #divNavFooter nav {
+#divNavFooter nav {
   display: flex;
   width: 210px;
   justify-content: space-between;
 }
-footer #divNavFooter a {
+#divNavFooter a {
   color: #e0be67;
 }
-footer #divNavFooter p {
+#divNavFooter p {
   color: #aaaaaa;
 }
 

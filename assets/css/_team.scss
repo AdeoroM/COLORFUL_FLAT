@@ -1,18 +1,17 @@
-%Display {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
 @mixin div-width($property) {
   width: $property / 940px * 100%;
 }
 
 $Color-font: rgb(97, 97, 97);
 
+#team {
+  @extend %DisplayView;
+  background-color: #deb5c5;
+}
+
 #divTeam {
   @extend %Display;
+  justify-content: center;
   width: 940px;
   margin: 40px 0px;
 }

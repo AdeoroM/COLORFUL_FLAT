@@ -1,4 +1,4 @@
-%Display {
+%Display2 {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -10,15 +10,20 @@ $Color-font: rgb(119, 119, 119);
   width: $property / 940px * 100%;
 }
 
+#section {
+  @extend %DisplayView;
+  background-color: #99d2a7;
+}
+
 #divWorks {
   width: 940px;
   margin: 40px 0px;
-  @extend %Display;
+  @extend %Display2;
   color: white;
 }
 #divTittleWorks {
-  @include div-width(400px);
-  @extend %Display;
+  width: 400px;
+  @extend %Display2;
   text-align: center;
   margin-bottom: 40px;
   h1 {

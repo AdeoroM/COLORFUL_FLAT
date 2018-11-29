@@ -1,9 +1,8 @@
-%Display {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
 $Color-font: rgb(97, 97, 97);
+
+#Information {
+  @extend %DisplayView;
+}
 
 #divContainerInformation {
   margin: 80px 0px;

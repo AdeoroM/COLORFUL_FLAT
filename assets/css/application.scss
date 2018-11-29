@@ -1,57 +1,17 @@
-$background: #a6d1d8;
+@import "body";
 
-%DisplayVew {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
+@import "header";
 
-body {
-  margin: 0 auto;
-  a {
-    text-decoration: none;
-  }
-}
-header {
-  @import "header";
-  @extend %DisplayVew;
-  background-color: $background;
-}
-#Information {
-  @import "information";
-  @extend %DisplayVew;
-}
+@import "information";
 
-section {
-  @import "works";
-  @extend %DisplayVew;
-  background-color: #99d2a7;
-}
+@import "works";
 
-#news {
-  @import "news";
-  @extend %DisplayVew;
-  background-color: #f1f1f1;
-}
-#team {
-  @import "team";
-  @extend %DisplayVew;
-  background-color: #deb5c5;
-}
-#posts {
-  @import "posts";
-  @extend %DisplayVew;
-  background-color: $background;
-}
+@import "news";
 
-footer {
-  @import "footer";
-  @extend %DisplayVew;
-  background-color: #3c3c3c;
-}
+@import "team";
 
-@media screen and (max-width: 940px) {
-  body {
-    width: 940px;
-  }
-}
+@import "posts";
+
+@import "footer";
+
+@import "responsive";

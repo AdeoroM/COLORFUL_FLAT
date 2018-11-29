@@ -1,9 +1,8 @@
-%Display {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-items: center;
+#news {
+  @extend %DisplayView;
+  background-color: #f1f1f1;
 }
+
 #divNews {
   @extend %Display;
   flex-flow: column wrap;

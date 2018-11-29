@@ -1,20 +1,18 @@
-%Display {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
 $Color-font: rgb(170, 170, 170);
 
+footer {
+  @extend %DisplayView;
+  background-color: #3c3c3c;
+}
+
 #div-footer {
-  @extend %Display;
+  @extend %Display2;
   width: 940px;
   margin: 40px 0px;
 }
 #div-tittle-footer {
   width: 400px;
-  @extend %Display;
+  @extend %Display2;
   text-align: center;
   margin-bottom: 40px;
   color: white;
@@ -30,7 +28,7 @@ $Color-font: rgb(170, 170, 170);
 }
 #divInputFooter {
   width: 450px;
-  @extend %Display;
+  @extend %Display2;
   height: 300px;
   justify-content: space-between;
   margin-top: 20px;
