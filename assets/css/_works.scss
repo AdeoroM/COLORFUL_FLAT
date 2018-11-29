@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
 }
-$Color-font: rgb(97, 97, 97);
+$Color-font: rgb(119, 119, 119);
 
 @mixin div-width($property) {
   width: $property / 940px * 100%;
@@ -24,9 +24,13 @@ $Color-font: rgb(97, 97, 97);
   h1 {
     font-size: 45px;
     margin: 0 auto;
+    font-family: "Roboto Slab", serif;
   }
   p {
-    font-size: 14px;
+    font-size: 13px;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0.5;
   }
 }
 
@@ -38,6 +42,7 @@ $Color-font: rgb(97, 97, 97);
     justify-content: space-between;
     a {
       text-decoration: none;
+      font-family: Arial, sans-serif;
     }
   }
 }

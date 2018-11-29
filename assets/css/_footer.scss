@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 
-$Color-font: rgb(119, 119, 119);
+$Color-font: rgb(170, 170, 170);
 
 #div-footer {
   @extend %Display;
@@ -21,9 +21,11 @@ $Color-font: rgb(119, 119, 119);
   h1 {
     font-size: 45px;
     margin: 0 auto;
+    font-family: "Roboto Slab", serif;
   }
   p {
-    font-size: 14px;
+    font-size: 13px;
+    font-family: sans-serif;
   }
 }
 #divInputFooter {
@@ -40,7 +42,7 @@ $Color-font: rgb(119, 119, 119);
   width: 100%;
   padding-left: 20px;
   font-size: 14px;
-
+  border: 0px;
   height: 50px;
 }
 
@@ -95,7 +97,7 @@ $Color-font: rgb(119, 119, 119);
     justify-content: space-between;
   }
   a {
-    color: goldenrod;
+    color: rgb(224, 190, 103);
   }
   p {
     color: $Color-font;

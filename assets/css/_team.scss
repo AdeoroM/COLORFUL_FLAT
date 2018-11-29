@@ -26,9 +26,12 @@ $Color-font: rgb(97, 97, 97);
   h1 {
     font-size: 45px;
     margin: 0 auto;
+    font-family: "Roboto Slab", serif;
   }
   p {
-    font-size: 14px;
+    font-size: 13px;
+    font-family: sans-serif;
+    opacity: 0.5;
   }
 }
 #divInformationTeam {
@@ -47,17 +50,21 @@ $Color-font: rgb(97, 97, 97);
   height: auto;
   div {
     h1 {
-      font-size: 24px;
+      font-size: 26px;
       margin: 10px 0px;
+      font-family: "Roboto Slab", serif;
     }
     h3 {
-      font-size: 17px;
+      font-size: 16px;
       margin: 5px 0px;
+      font-family: sans-serif;
     }
     p {
       color: $Color-font;
-      font-size: 15px;
+      font-size: 14px;
       margin: 10px 0px;
+      font-family: sans-serif;
+      line-height: 18px;
     }
   }
 }

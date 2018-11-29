@@ -79,6 +79,7 @@ header #divImageHeader div h1 {
   font-size: 45px;
   padding-bottom: 20px;
   text-align: center;
+  font-family: "Roboto Slab", serif;
 }
 header #divTextImageHeader {
   width: 450px;
@@ -128,11 +129,13 @@ header input[type=radio]:checked {
   height: 115px;
 }
 #Information #divContainerInformation div h3 {
-  font-size: 19px;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 #Information #divContainerInformation div p {
   color: #616161;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 section {
@@ -157,9 +160,13 @@ section #divTittleWorks {
 section #divTittleWorks h1 {
   font-size: 45px;
   margin: 0 auto;
+  font-family: "Roboto Slab", serif;
 }
 section #divTittleWorks p {
-  font-size: 14px;
+  font-size: 13px;
+  color: white;
+  font-family: sans-serif;
+  opacity: 0.5;
 }
 section #divNavWorks {
   width: 57.4468085106%;
@@ -171,6 +178,7 @@ section #divNavWorks nav {
 }
 section #divNavWorks nav a {
   text-decoration: none;
+  font-family: Arial, sans-serif;
 }
 section .aNavWorks {
   display: inline-block;
@@ -224,7 +232,7 @@ section #divBtnWorks {
   border: 0px;
   font-family: Helvetica, sans-serif;
   font-size: 14px;
-  color: #616161;
+  color: #777777;
   font-weight: bold;
 }
 
@@ -238,6 +246,7 @@ section #divBtnWorks {
   flex-flow: column wrap;
   margin: 60px 0px;
   width: 940px;
+  font-family: sans-serif;
 }
 #news #divNews div img {
   width: 100%;
@@ -253,11 +262,11 @@ section #divBtnWorks {
   font-weight: bold;
 }
 #news #divNews div h3 {
-  font-size: 27px;
+  font-size: 24px;
   margin-bottom: 5px;
 }
 #news #divNews div p {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 5px;
   color: #616161;
 }
@@ -350,9 +359,12 @@ section #divBtnWorks {
 #team #divTittleTeam h1 {
   font-size: 45px;
   margin: 0 auto;
+  font-family: "Roboto Slab", serif;
 }
 #team #divTittleTeam p {
-  font-size: 14px;
+  font-size: 13px;
+  font-family: sans-serif;
+  opacity: 0.5;
 }
 #team #divInformationTeam {
   margin-top: 80px;
@@ -370,17 +382,21 @@ section #divBtnWorks {
   height: auto;
 }
 #team .my-class-name-information-team div h1 {
-  font-size: 24px;
+  font-size: 26px;
   margin: 10px 0px;
+  font-family: "Roboto Slab", serif;
 }
 #team .my-class-name-information-team div h3 {
-  font-size: 17px;
+  font-size: 16px;
   margin: 5px 0px;
+  font-family: sans-serif;
 }
 #team .my-class-name-information-team div p {
   color: #616161;
-  font-size: 15px;
+  font-size: 14px;
   margin: 10px 0px;
+  font-family: sans-serif;
+  line-height: 18px;
 }
 #team .my-class-name-image-information-Team {
   display: flex;
@@ -454,15 +470,20 @@ section #divBtnWorks {
 #posts .my-class-name-container-information-posts div h1 {
   font-size: 22px;
   margin: 10px 0px;
+  font-family: sans-serif;
 }
 #posts .my-class-name-container-information-posts div h3 {
-  font-size: 17px;
+  color: #616161;
+  font-size: 14px;
+  font-style: italic;
+  font-family: sans-serif;
   margin: 5px 0px;
 }
 #posts .my-class-name-container-information-posts div p {
   color: #616161;
-  font-size: 15px;
+  font-size: 14px;
   margin: 10px 0px;
+  font-family: sans-serif;
 }
 #posts .my-class-name-image-posts {
   display: flex;
@@ -524,9 +545,11 @@ footer #div-tittle-footer {
 footer #div-tittle-footer h1 {
   font-size: 45px;
   margin: 0 auto;
+  font-family: "Roboto Slab", serif;
 }
 footer #div-tittle-footer p {
-  font-size: 14px;
+  font-size: 13px;
+  font-family: sans-serif;
 }
 footer #divInputFooter {
   width: 450px;
@@ -540,6 +563,7 @@ footer .my-class-name-inputs {
   width: 100%;
   padding-left: 20px;
   font-size: 14px;
+  border: 0px;
   height: 50px;
 }
 footer #inputMessage {
@@ -592,10 +616,10 @@ footer #divNavFooter nav {
   justify-content: space-between;
 }
 footer #divNavFooter a {
-  color: goldenrod;
+  color: #e0be67;
 }
 footer #divNavFooter p {
-  color: #777777;
+  color: #aaaaaa;
 }
 
 @media screen and (max-width: 940px) {

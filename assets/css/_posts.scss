@@ -49,16 +49,20 @@ $Color-font: #616161;
     h1 {
       font-size: 22px;
       margin: 10px 0px;
+      font-family: sans-serif;
     }
     h3 {
-      font-size: 17px;
-
+      color: $Color-font;
+      font-size: 14px;
+      font-style: italic;
+      font-family: sans-serif;
       margin: 5px 0px;
     }
     p {
       color: $Color-font;
-      font-size: 15px;
+      font-size: 14px;
       margin: 10px 0px;
+      font-family: sans-serif;
     }
   }
 }
