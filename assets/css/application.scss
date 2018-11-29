@@ -31,6 +31,7 @@ section {
 #news {
   @import "news";
   @extend %DisplayVew;
+  background-color: #f1f1f1;
 }
 #team {
   @import "team";

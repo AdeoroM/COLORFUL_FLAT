@@ -236,6 +236,9 @@ section #divBtnWorks {
   font-weight: bold;
 }
 
+#news {
+  background-color: #f1f1f1;
+}
 #news footer #divInputFooter, footer #news #divInputFooter, #news footer #div-tittle-footer, footer #news #div-tittle-footer, #news footer #div-footer, footer #news #div-footer, #news #posts #divTittlePosts, #posts #news #divTittlePosts, #news #posts #divPosts, #posts #news #divPosts, #news #team #divTittleTeam, #team #news #divTittleTeam, #news #team #divTeam, #team #news #divTeam, #news #divNews, #news header #divNavegationHeader, header #news #divNavegationHeader, #news header #divNavegationHeader nav, header #divNavegationHeader #news nav, #news header #divImageHeader, header #news #divImageHeader, #news #Information #divContainerInformation, #Information #news #divContainerInformation, #news section #divWorks, section #news #divWorks, #news section #divTittleWorks, section #news #divTittleWorks {
   display: flex;
   align-items: center;
