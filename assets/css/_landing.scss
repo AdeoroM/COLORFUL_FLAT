@@ -45,10 +45,33 @@
 #text-information-landing {
   width: 450px;
 }
-#radio-informatio-landing {
+#my-landing {
   display: flex;
   margin-top: 20px;
   margin-bottom: 40px;
   align-items: center;
   justify-content: center;
+}
+.landing-indicator {
+  display: flex;
+  flex-flow: row wrap;
+  width: 85px;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+
+  li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .active {
+    margin: 0;
+    width: 21px;
+    height: 21px;
+    background-color: white;
+  }
 }
