@@ -3,14 +3,14 @@ section {
   background-color: #99d2a7;
 }
 
-.my-class-name-recent-works {
+.recent-works-section {
   @extend %display-column;
   width: 940px;
   margin: 40px 0px;
   color: white;
 }
 
-#nav-recent-works {
+.nav-recent-works {
   @include div-width(540px);
   margin-bottom: 20px;
   nav {
@@ -22,7 +22,7 @@ section {
     }
   }
 }
-.my-class-name-a-nav-works {
+.a-nav-works {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -36,14 +36,14 @@ section {
   transition-property: color, background-color;
 }
 
-.my-class-name-a-nav-works:hover,
-.my-class-name-a-nav-works:focus,
-.my-class-name-a-nav-works:active {
+.a-nav-works:hover,
+.a-nav-works:focus,
+.a-nav-works:active {
   background-color: white;
   color: #99d2a7;
 }
 
-[class^="my-class-name-a-nav-works"] {
+[class^="a-nav-works"] {
   padding: 10px 10px;
   cursor: pointer;
   color: white;

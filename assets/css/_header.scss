@@ -3,13 +3,13 @@ header {
   background-color: $background;
 }
 
-.my-class-name-header {
+.header {
   width: 940px;
   height: auto;
   font-family: sans-serif;
 }
 
-#navegation-header {
+.navegation-header {
   @extend %display-row;
   div {
     display: flex;
@@ -28,7 +28,7 @@ header {
   }
 }
 
-.my-class-name-a-nav {
+.a-nav-header {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -41,13 +41,13 @@ header {
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
-.my-class-name-a-nav:hover,
-.my-class-name-a-nav:focus,
-.my-class-name-a-nav:active {
+.a-nav-header:hover,
+.a-nav-header:focus,
+.a-nav-header:active {
   background-color: $color-letter;
   color: #a6d1d8;
 }
-[class^="my-class-name-a-nav"] {
+[class^="a-nav-header"] {
   padding: 10px 10px;
   cursor: pointer;
   color: $color-letter;

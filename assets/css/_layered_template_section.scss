@@ -1,9 +1,9 @@
-.my-class-name-layered-template {
+.layered-template-section {
   @extend %display-column;
   background-color: #f1f1f1;
 }
 
-.my-class-name-content-information-layered {
+.content-information-layered {
   @extend %display-row;
   flex-flow: column wrap;
   margin: 60px 0px;
@@ -34,7 +34,7 @@
     }
   }
 }
-#first-content-information-layered {
+.first-content-information-layered {
   display: grid;
   width: 940px;
   justify-content: space-between;
@@ -42,7 +42,7 @@
   margin-bottom: 70px;
 }
 
-#second-content-information-layered {
+.second-content-information-layered {
   display: grid;
   width: 940px;
   justify-content: space-between;
@@ -52,7 +52,7 @@
     order: 2;
   }
 }
-#button-first-content {
+.button-first-content {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -69,7 +69,7 @@
   font-weight: bold;
 }
 
-#button-second-content {
+.button-second-content {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -86,12 +86,12 @@
   font-weight: bold;
 }
 
-.my-class-name-information-layered {
+.information-layered {
   display: flex;
   flex-flow: column wrap;
 }
 
-#hr-content {
+.hr-content {
   width: 100%;
   hr {
     display: block;

@@ -1,14 +1,14 @@
-.my-class-name-recent-posts {
+.recent-posts-section {
   @extend %display-column;
   background-color: $background;
 }
 
-.my-class-name-content-recent-posts {
+.content-recent-posts {
   @extend %display-column;
   width: 940px;
   margin: 40px 0px;
 }
-#information-posts {
+.information-posts {
   margin-top: 80px;
   margin-bottom: 60px;
   width: 940px;
@@ -17,7 +17,7 @@
   justify-content: space-between;
 }
 
-.my-class-name-container-information-posts {
+.container-information-posts {
   @include div-width(290px);
   display: flex;
   margin: 0px;
@@ -44,7 +44,7 @@
     }
   }
 }
-.my-class-name-image-posts {
+.image-posts {
   display: flex;
   width: 100%;
   height: 140px;
@@ -53,7 +53,7 @@
   justify-content: center;
   margin-bottom: 0px;
 }
-.my-class-name-information-posts {
+.content-information-posts {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
