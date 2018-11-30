@@ -1,16 +1,10 @@
-@mixin div-width($property) {
-  width: $property / 940px * 100%;
-}
-
-$Color-font: rgb(97, 97, 97);
-
 .my-name-class-our-team {
-  @extend %DisplayView;
+  @extend %display-column;
   background-color: #deb5c5;
 }
 
 .my-name-class-content-our-team {
-  @extend %Display;
+  @extend %display-row;
   justify-content: center;
   width: 940px;
   margin: 40px 0px;
@@ -31,12 +25,12 @@ $Color-font: rgb(97, 97, 97);
   flex-flow: column wrap;
   height: auto;
   div {
-    h1 {
+    h3 {
       font-size: 26px;
       margin: 10px 0px;
       font-family: "Roboto Slab", serif;
     }
-    h3 {
+    h4 {
       font-size: 16px;
       margin: 5px 0px;
       font-family: sans-serif;

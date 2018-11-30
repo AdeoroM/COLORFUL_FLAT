@@ -1,18 +1,3 @@
-.my-name-class-content-our-team, .my-class-name-content-information-layered, .my-class-name-content-services-section, #information-landing, #navegation-header nav, #navegation-header, .title {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#inputs-footer, .my-class-name-footer, .my-class-name-content-recent-posts, .my-class-name-recent-works {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
 body {
   margin: 0 auto;
 }
@@ -26,7 +11,7 @@ body a {
   margin-bottom: 40px;
   color: white;
 }
-.title h1 {
+.title h2 {
   font-size: 45px;
   margin: 0 auto;
   font-family: "Roboto Slab", serif;
@@ -54,10 +39,18 @@ body a {
   font-weight: bold;
 }
 
-footer, .my-class-name-recent-posts, .my-name-class-our-team, .my-class-name-layered-template, section, .my-class-name-our-services-section, .my-class-name-landing, header {
+.my-name-class-content-our-team, .my-class-name-content-information-layered, .my-class-name-content-services-section, #information-landing, #navegation-header nav, #navegation-header, .title {
   display: flex;
-  width: 100%;
-  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#inputs-footer, .my-class-name-footer, footer, .my-class-name-content-recent-posts, .my-class-name-recent-posts, .my-name-class-our-team, .my-class-name-layered-template, .my-class-name-recent-works, section, .my-class-name-our-services-section, .my-class-name-landing, header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header {
@@ -76,7 +69,7 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-#navegation-header div p {
+#navegation-header div h1 {
   font-family: "Roboto Slab", serif;
   color: #3a494c;
   font-size: 25px;
@@ -146,7 +139,7 @@ header {
 #information-landing div {
   align-items: center;
 }
-#information-landing div h1 {
+#information-landing div h2 {
   color: white;
   font-size: 45px;
   padding-bottom: 20px;
@@ -198,23 +191,6 @@ section {
   width: 940px;
   margin: 40px 0px;
   color: white;
-}
-
-.my-class-name-tittle-recent-works {
-  width: 400px;
-  text-align: center;
-  margin-bottom: 40px;
-}
-.my-class-name-tittle-recent-works h1 {
-  font-size: 45px;
-  margin: 0 auto;
-  font-family: "Roboto Slab", serif;
-}
-.my-class-name-tittle-recent-works p {
-  font-size: 13px;
-  color: white;
-  font-family: sans-serif;
-  opacity: 0.5;
 }
 
 #nav-recent-works {
@@ -404,12 +380,12 @@ section {
   flex-flow: column wrap;
   height: auto;
 }
-.my-class-name-information-team div h1 {
+.my-class-name-information-team div h3 {
   font-size: 26px;
   margin: 10px 0px;
   font-family: "Roboto Slab", serif;
 }
-.my-class-name-information-team div h3 {
+.my-class-name-information-team div h4 {
   font-size: 16px;
   margin: 5px 0px;
   font-family: sans-serif;
@@ -476,12 +452,12 @@ section {
   flex-flow: column wrap;
   height: auto;
 }
-.my-class-name-container-information-posts div h1 {
+.my-class-name-container-information-posts div h2 {
   font-size: 22px;
   margin: 10px 0px;
   font-family: sans-serif;
 }
-.my-class-name-container-information-posts div h3 {
+.my-class-name-container-information-posts div h4 {
   color: #616161;
   font-size: 14px;
   font-style: italic;
@@ -583,7 +559,7 @@ footer {
   color: #e0be67;
 }
 .my-class-name-nav-footer p {
-  color: #aaaaaa;
+  color: #616161;
 }
 
 @media screen and (max-width: 940px) {

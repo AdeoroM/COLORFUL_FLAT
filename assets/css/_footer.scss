@@ -1,18 +1,16 @@
-$Color-font: rgb(170, 170, 170);
-
 footer {
-  @extend %DisplayView;
+  @extend %display-column;
   background-color: #3c3c3c;
 }
 
 .my-class-name-footer {
-  @extend %Display2;
+  @extend %display-column;
   width: 940px;
   margin: 40px 0px;
 }
 #inputs-footer {
   width: 450px;
-  @extend %Display2;
+  @extend %display-column;
   height: 300px;
   justify-content: space-between;
   margin-top: 20px;

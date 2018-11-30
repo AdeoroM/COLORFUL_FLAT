@@ -1,35 +1,13 @@
-$Color-font: rgb(119, 119, 119);
-
-@mixin div-width($property) {
-  width: $property / 940px * 100%;
-}
-
 section {
-  @extend %DisplayView;
+  @extend %display-column;
   background-color: #99d2a7;
 }
 
 .my-class-name-recent-works {
-  @extend %Display2;
+  @extend %display-column;
   width: 940px;
   margin: 40px 0px;
   color: white;
-}
-.my-class-name-tittle-recent-works {
-  width: 400px;
-  text-align: center;
-  margin-bottom: 40px;
-  h1 {
-    font-size: 45px;
-    margin: 0 auto;
-    font-family: "Roboto Slab", serif;
-  }
-  p {
-    font-size: 13px;
-    color: white;
-    font-family: sans-serif;
-    opacity: 0.5;
-  }
 }
 
 #nav-recent-works {

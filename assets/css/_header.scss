@@ -1,15 +1,5 @@
-$color-letter: #3a494c;
-
-$background: #a6d1d8;
-
-%DisplayView {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
 header {
-  @extend %DisplayView;
+  @extend %display-column;
   background-color: $background;
 }
 
@@ -20,20 +10,20 @@ header {
 }
 
 #navegation-header {
-  @extend %Display;
+  @extend %display-row;
   div {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    p {
+    h1 {
       font-family: "Roboto Slab", serif;
       color: $color-letter;
       font-size: 25px;
     }
   }
   nav {
-    @extend %Display;
+    @extend %display-row;
     width: 500px;
   }
 }

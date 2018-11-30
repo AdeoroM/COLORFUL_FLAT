@@ -1,18 +1,10 @@
-$background: #a6d1d8;
-
-@mixin div-width($property) {
-  width: $property / 940px * 100%;
-}
-
-$Color-font: #616161;
-
 .my-class-name-recent-posts {
-  @extend %DisplayView;
+  @extend %display-column;
   background-color: $background;
 }
 
 .my-class-name-content-recent-posts {
-  @extend %Display2;
+  @extend %display-column;
   width: 940px;
   margin: 40px 0px;
 }
@@ -32,12 +24,12 @@ $Color-font: #616161;
   flex-flow: column wrap;
   height: auto;
   div {
-    h1 {
+    h2 {
       font-size: 22px;
       margin: 10px 0px;
       font-family: sans-serif;
     }
-    h3 {
+    h4 {
       color: $Color-font;
       font-size: 14px;
       font-style: italic;

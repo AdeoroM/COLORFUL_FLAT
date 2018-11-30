@@ -1,5 +1,5 @@
 .my-class-name-landing {
-  @extend %DisplayView;
+  @extend %display-column;
   background-color: $background;
 }
 
@@ -28,12 +28,12 @@
 }
 
 #information-landing {
-  @extend %Display;
+  @extend %display-row;
   width: 840px;
   margin-top: 40px;
   div {
     align-items: center;
-    h1 {
+    h2 {
       color: white;
       font-size: 45px;
       padding-bottom: 20px;
